@@ -1,0 +1,30 @@
+Quítalo de tu codigo y abre la página en tu navegador. ¿Notas que algo se ve raro?
+
+    Es como si algo que no se puede ver desapareciese loo que provoca un ligero movimiento en el texto de la 
+    página web
+
+Explica con tus propias palabras por qué esta línea es necesaria.
+
+    Para que el navegador entienda en que tipo de lenguaje estamos escribiendo
+
+Bonus: busca en internet qué significa “Quirk Mode” y resumelo en 2 frases máximo.
+
+    El "Quirks Mode" es una forma en que los navegadores web se adaptan para mostrar correctamente páginas web 
+    antiguas que no siguen los estándares web modernos
+
+¿Qué pasa si pones lang="en" en lugar de lang="es"? ¿Para quién es útil esta información?
+
+    Que la pagina web detecta que el idioma en el que eta escrito el documento es en español en vex de en inglés
+
+¿Qué pasa si olvides de cerrar una etiqueta ?
+
+    Que VSCode lo toma como error y esa linea no se representa
+
+¿Qué pasa si usas <P> en vez de <p> ?
+
+    Nada
+
+Busca lo que significa Case Insensitive y explícalo en una linea.
+
+    Describe un sistema o texto que trata las letras mayúsculas y minúsculas como iguales
+

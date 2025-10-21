@@ -1,0 +1,72 @@
+1. Escribe en una frase lo que piensas que pasa cuando haces clic en "Ejecutar" en un programa. 
+
+    Que todo el código asociado a ese archivo que he ejecutado empieza a funcionar.
+
+2. Busca dos ejemplos de lenguajes que se interpretan sin compilación
+
+    Python y JavaScript
+
+3. Busca dos ejemplos de lenguajes que se compilan antes de la ejecución.
+
+    Java y C#
+
+4. Anota 1 ventaja y 1 desventaja de cada método. Compara tus respuestas con tu vecino.
+
+    Compilarse antes de ejecutarse:
+        Ventaja: Mayor velocidad y rendimiento
+        Desventaja: Falta de portabilidad
+
+    No se compilan:
+        Ventaja: Portabilidad y flexibilidad
+        Desventaja: Velocidad
+
+5. Clasifica estas extensiones en la categoría correcta: .py  - .exe  - .java  - .o  -  .class  -  .obj
+
+    Código fuente: .py, .java
+    Código objeto: .class, .obj
+    Código ejecutable: .exe
+
+6. Escribe una definición de una línea para cada categoría de código
+    
+    Código fuente: Conjunto de instrucciones escritas por el programador en un lenguaje de programación legible (como Python o Java).
+
+    Código objeto: Versión intermedia del programa, traducida por el compilador a un lenguaje que entiende la máquina pero aún no ejecutable.
+
+    Código ejecutable: Programa final completamente traducido y listo para ser ejecutado directamente por el sistema operativo.
+
+7. En Replit, intenta abrir el archivo helloC.exe. ¿Lo puedes leer?
+
+    No puedes leerlo.
+
+8. Descarga el archivo helloC.exe en el ordenador y ejecuta tu programa haciendo un doble clic en el archivo helloC.exe. ¿Que observas? 
+
+    Que no se puede abrir porque no tengo el software necesario.
+
+9. Ábrelo ahora con un traductor en hexadecimal en linea: https://hexed.it/ ¿qué notas?
+
+    Que todo es legible pero está desordenado
+
+10. En formato hexadecimal, la palabra Hola se escribe 48 6F 6C 61. Intenta encontrarla en el código y escribe la traducción hexadecimal de « mundo ». 
+
+    57 6F 72 6C 64
+
+11. Búsqueda rápida en grupo de 2:  
+    
+    • Uno del equipo busca: ¿Qué es la JVM? 
+        La JVM (Java Virtual Machine) es la Máquina Virtual de Java, un programa que interpreta y ejecuta el código bytecode (.class) de Java, 
+        permitiendo que el mismo programa funcione en cualquier sistema operativo sin necesidad de recompilarlo.
+    
+    • El otro busca: ¿Qué es el CLR? Lo buscó David Xu Wei
+
+12. Clasifica estos programas en multiplataforma o no multiplataforma (busca lo que significa) 
+    • LibreOffice – Windows – Firefox – Linux – Photoshop – GIMP – Chrome
+
+        Multiplataforma significa que puede funcionar en distintos sistemas operativos, ya puede ser Windows, Mac, Linux...
+
+        Si son:LibreOffice, Firefox, GIMP, Chrome.
+
+        No son: Windows, Linux, Photoshop.
+
+13. Por qué es importante que un software sea multiplataforma?
+
+    Porque lo hace más accesible para todos, ahorra tiempo y recursos, facilita el mantenimiento.

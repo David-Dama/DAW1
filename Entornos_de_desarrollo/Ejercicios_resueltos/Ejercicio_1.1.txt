@@ -1,0 +1,56 @@
+¿Quién establece normas internacionales sobre tecnología para que todos hablemos el mismo idioma?
+    
+    No es una çunica entidad, sino una red de organizaciones de estandarización internacional como 
+    la Organización internacional de la Normalización (ISO), la  Comisión Electrotécnica Internacional
+    (IEC) y la Unión Internacional de Telecomunicaciones (UIT). También cabe destacar al Institute of 
+    Electrical and Electronics Engineers (Instituto de Ingenieros Eléctricos y Electrónicos)
+
+
+¿Qué es un programa informático?
+
+    Según la Rae es un conjunto de instrucciones que permite a un ordenador u otro aparato realizar una 
+    determinada función de forma automática.
+    En otras palabras, una serie de pasos a seguir que perimte que un dispositivo electronico haga algo,
+    ya sea una orden o cualquier otra cosa. A esa serie de pasos se le conoce como algortimo.
+
+
+Menciona dos funciones o tareas que puede realizar un programa.
+
+    Un programa puede automatizar tareas para poder reducir el tiempo que invrtimos en ellas y también puede
+    gestionar y organizar información a gusto del solicitante.
+
+
+¿Es lo mismo un programa que el software? ¿O el software es algo más amplio? 
+
+    Un programa y el software no es lo mimo ya que el software se refiere a algo más amplio debido a que puede 
+    recoger más de un programa informático. Para comprenderlo mejor, un programa es simplemente una secuencia 
+    de instrucciones, y seguir instrucciones es una de las partes del software, pero tiene otras más.
+
+
+Clasifica los siguientes ejemplos de software en 3 categorías:
+
+    Sistemas: Windows, Linux, macOS
+
+    Aplicaciones: Antivirus, Microsoft Word, Photoshop, Gimp, LibreOffice, Compiladores, Intérpretes (Python)
+
+    Soporte: Drivers, VSCode 
+
+
+Define el concepto de cada categoría en una sola línea.
+
+    Sistemas: Conjunto de elementos interrelacionados entre sí para lograr un mismo objetivo
+
+    Aplicaciones: es un programa informático diseñado para realizar tareas o funciones específicas y facilitar 
+    la experiencia del usuario en dispositivos como computadoras, teléfonos móviles o tablets
+
+    Soporte:servicio integral de asistencia técnica que proporciona ayuda a usuarios y empresas con problemas de 
+    hardware, software, redes y sistemas tecnológicos
+
+
+¿Qué software usarías si...
+    
+    fueras científico de datos?
+        SQL, MYSQL
+
+    fueras desarrollador web?
+        Java, Python, C++

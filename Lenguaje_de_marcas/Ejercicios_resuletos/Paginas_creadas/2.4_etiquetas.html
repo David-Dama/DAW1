@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+        <style>
+            .caja { 
+                background-color: lightblue; 
+                border: 2px solid blue; 
+                padding: 20px; 
+                margin: 20px; 
+            } 
+            .caja2{
+                background-color: aliceblue;
+                border: 2px solid red;
+                padding: 20px;
+                margin: 20px;
+            }
+            table { 
+                border-collapse: collapse; 
+                border: 1px solid #333; 
+            } 
+            th, td { 
+                border: 1px solid #999; 
+                padding: 8px; 
+            } 
+            thead { 
+                background-color: #f2f2f2; 
+            }
+        </style>
+</head>
+<body>
+    <div class="caja">
+        <h1>Hola que tal</h1>
+        <p>Esto es una etiqueta div</p>
+        <ul>
+            <li> <a href="https://www.google.com" target="_blank" rel="noopener noreferer">Abrir Google en nueva pestaña</a></li>
+            <li> <a href = "archivo.pdf" download = "archivo.pdf">Descargar PDF</a></li>
+            <li> <a href="#seccion2">Ir a la sección2 de esta página</a></li>
+        </ul>
+    </div>
+
+    <div class="caja2" id="seccion2">
+        <p>
+            Párrafo
+        </p>
+    </div>
+    <table border="1">
+        <caption>Inventario de Vehículos</caption>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>Año</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ford</td>
+                <td>Fiesta</td>
+                <td>Rojo</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Toyota</td>
+                <td>Corolla</td>
+                <td>Rojo</td>
+                <td>2025</td>
+            </tr>
+             <tr>
+                <td>Wolkswagen</td>
+                <td>Golf</td>
+                <td>Negro</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Wolkswagen</td>
+                <td>Golf</td>
+                <td>Negro</td>
+                <td>2025</td>
+            </tr>
+        </tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Datos actualizados en 2024</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Género</th>
+                <th>Juego</th>
+                <th>Plataforma</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Aventura</td>
+                <td>The Legend of Zelda: Tears of the Kingdom</td>
+                <td>Nintendo Switch</td>
+            </tr>
+            <tr>
+                <td>Uncharted 4: A Thief's End</td>
+                <td>PlayStation</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Acción</td>
+                <td>God of War: Ragnarök</td>
+                <td>PlayStation</td>
+            </tr>
+            <tr>
+                <td>Halo Infinite</td>
+                <td>Xbox</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

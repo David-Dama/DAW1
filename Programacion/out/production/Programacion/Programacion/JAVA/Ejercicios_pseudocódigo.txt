@@ -1,0 +1,301 @@
+1. Diseñar un algoritme que define el funcionamiento de una busqueda por producto en un catalogo online
+
+algortimo busquedaProducto
+    introducir producto a buscar
+    hacer click en buscar
+    conectar a la base de datos
+    buscar el producto
+    si se encuentra
+        retornar registros que coinciden
+        mostrar productos en la pantalla
+    si no
+        mostrar mensaje "no encontrado"
+
+fin busquedaProducto
+
+2. Diseña un algortimo para definir la preparación de un desayuno.
+
+Algortimo prepararDesayuno
+    Pensar que quiero comer
+    Buscar si tengo lo que quiero
+    
+    Si lo tengo
+        Lo preparo
+        Lo llevo a la mesa
+        Me lo como
+
+    Si no
+        Repito desde el primer paso hasta encontrar algo que si tenga
+        
+        Si no encuentro nada para comer
+            Me preparo para salir a buscar comida
+            Salgo de casa
+            Busco una tienda
+            Entro a la tienda
+            Busco algo que quiera desayunar
+
+            Si hay algo que quiera desayunar en dicha tienda  
+                Compro lo que quiera desayunar
+                Salgo de la tienda
+                Vuelvo a casa
+                Repito desde el paso uno de nuevo 
+
+            Si no hay algo que quiera desayunar en dicha tienda
+                Salgo de la tienda
+                Busco otra
+                Entro en la nueva tienda
+                Sigo los pasos indicados como si hubiese algo que quiera desayunar en dicha tienda
+
+Fin prepararDesayuno        
+
+3. Plantea unm algortimo para calcular el cambio a devolver a un cliente en una tienda. El agortimo debe recibir el precio total de la 
+compra y el dinero entregado por el cliente, y debe devolver la antidad de cambio.
+
+Iniciar devolverCambio
+
+Agarrar cada producto y escanear el precio de manera individual
+Decirle al cliente el precio a pagar de todos los productos
+
+Si el cliente decide no comprar alguno de los productos escaneados
+    Quitar el costo del producto no deseado
+    Comentarle al cliente el nuevo precio a pagar
+    
+Si el cliente paga el precio justo
+    Dar los productos solicitados por el cliente
+    Preguntar si desea el tiquet
+    
+    Si lo desea
+        Entregarselo
+        Despedirse cordialmente
+
+    Si no lo desea 
+        Entregarselo
+        Despedirse cordialmente
+
+Si el cliente paga de más
+    Calcular restando el dinero entregado por el cliente con lo que el cliente debe
+    Buscar con el dinero de la caja el precio a devolver 
+    Entregar el precio a devolver al cliente
+    Preguntar si desea el tiquet
+    
+    Si lo desea
+        Entregarselo
+        Despedirse cordialmente
+
+    Si no lo desea 
+        Entregarselo
+        Despedirse cordialmente
+
+Si el cliente paga de menos
+    Comentarle que hace falta más dinero
+
+    Si tiene más dinero
+        Cogerlo
+        Repetir segun, segun el caso, las dos opciones anteriores
+    
+    Si no tiene más dinero
+        Comentarle que hasta que no pague no se le podrán entregar los productos
+        Guardar los productos en su sitio correspondiente
+
+Fin devolverCambio
+
+4. Crea un algortimo que describa el proceso de preparar una taza de café en una máquina automática. 
+El algortimo debe verificar si hay suficiene agua y café antes de comenzar.
+
+Inicio hacerCafé
+
+Revisar cantidad de agua disponible:
+    
+    Si hay suficiente agua
+        Comprobar si hay suficiente café
+
+        Si hay
+            Continuar haciendo el café
+
+        Si no
+            Notificar al responsable de la máquina
+
+    Si no hay suficiente agua
+        Notificar al responsable de la máquina
+
+Fin hacerCafé
+
+5. Diseña un algortimo para calcular el coste total de un viaje en coche. El algoritmo debe tener en cuentala distancia,
+ el consumo de combustible del coche (litros/100km), y el precio del litro de gasolina
+
+Inicio costeViaje
+
+Deducir la distancia a recorrer
+Transformar las unidades a kilometros
+Conocer la marca del vehículo utilizado
+Buscar el consumo del vehículo (en litros/100km)
+Revisar que tipo de combustible se utiliza
+Buscar el precio del combustible usado
+Multiplicar la distancia recorrida por el consumo (en litros/100km) 
+Multiplicar el valor obtenido anteriormente por el precio del combustible utilizado
+
+Fin costeViaje
+
+SOLUCIÓN MARCELA
+
+Algortimo costeViaje
+    Solicita distancia
+    Solicita precioLitro
+    Solicita consumo
+
+    litrosNecesarios = distancia/100 consumo
+
+    costeTotal = litrosNecesarios*precioLitro
+
+    mostrar costeTotal
+
+Fin costeViaje
+
+6. Desarrolla un algortimo que ayude a organizar la ropa en un armario. El algortimo debe considerar el conjunto de prendas 
+existentes en el armario clasificar cada prenda como "camiseta", "pantalón" o "abrigo" y colocarla en su respectivo cajón.
+
+Algortimo colocarArmario
+
+    Repetir hasta terminar prendas
+        Agarrar siguiente prenda
+        Puedo?
+    
+            Si es camiseta
+                Guardar en cajón1
+            
+            Si no
+                Es pantalón?
+
+                    Si es pantalón
+                        Guardar en cajón2
+                    
+                    Si no
+                        Es abrigo?
+                            Si es abrigo
+                            Guargar en Cajón3
+                                            
+    No puedo?
+        Fin colocarArmario
+
+7. Crea un algortimo para generar un menú de comidas para una semana (7 días). 
+La selección del menú es aleatoria de una lista predefinida de comidas principales.
+
+Algortimo darComidas
+
+Repetir 7 veces 
+    Generar plato aleatorio de la lista
+
+Fin darComidas
+
+8. Crea un algortimo para atender a una cola de clientes. El algoritmo debe procesar a los clientes uno por uno mientras haya personas en la cola. 
+Para cada cliente debe calcular el total de su compra y el cambio a devolver y luego avanzar al siguiente cliente.
+
+Algoritmo atenderClientes
+
+    Repetir mientras haya clientes
+    
+        Escanear producto
+        Calcular total
+    
+        Si entrega menos del total
+            Exigir más dinero hasta igualar o superar el total
+        Fin si
+
+        Si entrega la cantidad exacta
+            Entregar productos
+        Fin si
+
+        Si entrega de más
+            Restar Recibido menos total
+            Devolver el cambio
+        Fin si
+
+    Fin Repetir
+
+Fin atenderClientes
+
+9. ribe un algortimo para sumar dos números enteros. El algortimos debe pedir al usuario que introduzca
+los dos números y luego mostrar el resultado
+
+Iniciar sumaNumeros
+
+    Solicitar numeroEntero1
+    Solicitar NumeroEntero2
+
+    numeroEntero1 + numeroEntero2 = resultadoEntero
+
+    Mostrar resultadoEntero al cliente
+
+Fin sumaNumeros
+
+10. Escribe un algortimo que determine si un número ingresado por el usuario es positivo , negativo o 0.
+
+Algortimo identificarNumero
+
+    solicitarNumero
+
+    Si Numero > 0
+        Responder con "Positivo"
+    Fin Si
+
+    Si Numero = 0
+        Responder con 0
+    Fin Si
+
+    Si Numero < 0
+        Responder con "Negativo"
+    Fin Si
+
+Fin identificarNumero
+
+11. Crea un algoritmo para decidir si una persona puede votar, basándose en su edad.
+
+Algortimo personaVotante
+
+    solicitarEdad
+
+    Si Edad >= 18
+        permitirVotar
+
+    Si no
+        No permitirVotar
+
+    Fin Si
+
+Fin Algoritmo personaVotante
+
+12. Crea un algoritmo que calcule el área de un círculo. El algortimo debe solicitar el  radio como entrada y luego aplicar
+la fórmula del área ( A = π·r^2)
+
+Algoritmo calcularArea
+
+    Solicitar radioCircunferencia
+
+    Si radioCircunferencia <= 0
+        Mostrar mensaje 'El radio no puede ser negativo'
+
+    Si no
+        π · radioCircunferencia^2 = Area
+        Mostrar Area
+    
+    Fin Si
+
+Fin Algortimo calcularArea
+
+13. Diseña un algortimo que determine si un número entero introducido por el usuario es par o impar. El algortimo debe utilizar el operador de módulo (%) 
+y mostrar un mensaje 'es par' o 'es impar' en función del resultado del módulo. 
+
+Algortimo identificarNumero
+
+    Solicitar numeroEntero
+    numeroEntero%2 = resultado  
+    
+    Si Resultado = 0
+        Mostrar mensaje 'Es par'
+
+    Si no
+        Mostrar mensaje 'Es impar'
+
+    Fin Si
+    
+Fin Algoritmo identificarNumero

@@ -1,0 +1,70 @@
+¿Qué significa HTML? Escríbelo completo y en tu cuaderno traduce el nombre al español.
+
+    HTML significa HyperText Markup Language, que se traduce al español como Lenguaje de Marcado de Hipertexto
+
+Menciona dos tareas concretas que puedes realizar con un lenguaje de marcas como HTML.
+
+    Organizar texto e integrar elementos multimedia como imagenes y videos
+
+¿Qué puede hacer un lenguaje de programación que un lenguaje de marcas no puede
+hacer?
+
+    Ejeecutar lógica completa, manipular datos o realizar operaciones.
+
+Da un ejemplo real (ejemplo: Python vs. HTML).
+
+
+
+¿Conoces o puedes encontrar en internet otros lenguajes de marcas además de HTML?
+
+    CSS, XML
+
+Escribe al menos uno y explica para qué se utiliza.
+
+    CSS se utiliza para darle un diseño más estetico, agradable y visual a las páginas webs
+
+
+
+<!DOCTYPE html>
+  <html>
+   <head>
+     <title> Título de la página</title>
+   </head>
+  ‹body>
+   <h1>Mi Primer Encabezado</h1>
+    <p>Mi primer párrafo.</p>
+  </body>
+ </html>
+
+Observa el documento HTML de arriba: ¿Cuántas etiquetas puedes distinguir?
+
+    7 etiquetas
+
+
+¿Cómo sabe el navegador que un texto es un título y no un párrafo cualquiera?
+
+    Porque se utilizan distintas etiquetas, como <title> o <p>
+
+De la lista siguiente, marca cuáles son etiquetas HTML válidas.
+
+    Son validas <adress> <main> <figure> <figcaption> <nav> <footer> <section> <article> <video> <summary>
+
+
+<head>
+ <p>Zapatillas Online - Colección 2025</p>
+</head>
+
+Busca lo que significa SEO
+
+El SEO (Search Engine Optimization, u Optimización para Motores de Búsqueda) es un conjunto de técnicas y 
+estrategias para mejorar la visibilidad de un sitio web en los resultados orgánicos y no pagados de los motores 
+de búsqueda
+
+Corrige una etiqueta de este código para mejorar el SEO
+
+    En vez de poner <p>...</p>, poner <title>...</title>
+
+Explica brevemente por qué tu solución es mejor para buscadores y usuarios.
+
+    Porque son más comodos de leer para programadores ya que está mejor organizado y para los usuarios también
+    ya que el texto se ve más grande y visible.

@@ -1,0 +1,153 @@
+Piensa en una palabra simple (ejemplo: Hola)
+
+    David: 01000100 01100001 01110110 01101001 01100100
+
+
+¿Qué pasa con la palabra cuando la transformamos en binario? ¿Por qué necesitamos un 
+lenguaje intermedio?
+
+    Que aumenta el tamaño y no se puede leer a simple vista, necesitamos apoyo de una tabla o una máquina
+    que lo traduzca a nuestro idioma
+
+
+Busca en internet el siguiente código y responde a las preguntas:
+    
+    Código: 'print("Hola mundo")'
+
+        1.- ¿Qué lenguaje es?
+
+            Python
+
+        2.- Ahora intenta buscar la misma instrucción en Java y en C
+
+            Java: public class HolaMundo {
+                    public static void main(String[] args) {
+                        System.out.println("Hola mundo");
+                    }
+                  }
+
+            C: int main()
+                {
+                    printf( "Hola mundo." );
+
+                    getch(); /* Pausa */
+
+                    return 0;
+                }
+
+
+Observa los fragmentos de código siguientes y responde a las preguntas:
+
+ Primero: #include <stdio.h>
+         int main() {
+            int a = 2, b = 3;
+            int suma = a + b;
+            printf("%d\n", suma);
+            return 0;
+         }
+
+ Segundo: MOV AX, 2
+         ADD AX, 3
+
+ Tercero: a = 2
+         b = 3
+         print (a + b)
+            
+    
+    Clasifícalos según su nivel de abstracción: bajo nivel, intermedio, alto nivel:
+        
+        Primero: Intermedio
+
+        Segundo: Alto nivel
+
+        Tercero: Bajo Nivel
+    
+    Para cada nivel, escribe una definición sencilla de una línea.
+
+        Primero: Le da un valor a cada letra, pone el codigo de sumar y que el resultado se vea en la página
+
+        Segundo: Dice algo como añadir al dos un 3 
+
+        Tercero: Le da un valor a cada letra y pone q escriba el resultado
+
+
+Un grupo de desarrolladores recibe 4 proyectos: 
+    
+    1. Crear una página web interactiva. 
+    2. Analizar datos de encuestas de miles de estudiantes. 
+    3. Gestionar una base de datos de clientes de una empresa. 
+    4. Desarrollar una aplicación empresarial robusta. 
+
+¿Qué lenguaje escogerías para cada proyecto? Justifica brevemente tu elección.
+
+    En el caso uno utilizaria JavaScript para el backend y el funcionamiento interno de la página y HTML 
+    junto con CSS para hacerla atractiva.
+
+    En el caso dos utilizaria SQL o Python para organizar todos los datos
+
+    En el tercer caso utilizaria también SQL, NoSQL y similares para gestionar esos datos
+
+    En el ultimo caso Utilizaria JavaScript, Python y SQL 
+
+
+Lee la lista siguiente y ordénala de la más antigua a la más moderna: 
+    • C++ 
+    • Prolog 
+    • Código máquina 
+    • SQL 
+    • Ensamblador 
+
+    Ordenado y Clasificado dentro de 1Gl, 2GL, ..., 5GL.
+    • Código máquina    1GL
+    • Ensamblador       2GL
+    • C++               3GL
+    • SQL               4GL
+    • Prolog            5GL
+
+    ¿Qué cambios importantes notas entre las primeras generaciones (1GL/2GL) y las más recientes (4GL/5GL)? 
+
+        La productividad, ya que los de $GL/5GL son mucho más eficientes, también la independencia de la máquina, 
+        ya que los lenguajes de alto nivel no necesitan ser tan específicos, lo que facilita la portabilidad del
+        software. Y por último, el enfoque en la IA, ya que la evolución hace q los sistemas ppuedan razonar y 
+        resolver problemas de manera más autónoma.
+
+    Según tu opinión, ¿por qué crees que cada nueva generación fue necesaria? 
+
+        Porque el avance tecnológico es necesario tanto como para entender y comprender los límites que tenemos 
+        actualmente como para poder simplificar y hacer las cosas más faciles y accesibles para todos.
+
+
+Observa el siguiente código:
+
+    <!DOCTYPE html>
+    <html>
+        <body>
+         <h1 is="saludo"></h1>
+         <script>
+          document.getElementByld("saludo").innerText = "¡Hola desde JavaScript!";
+         </script>
+        </body>
+    </html>
+
+    ¿Cual lenguaje de programación reconoces?
+
+        Parece ser HTML
+
+    ¿Ese código se ejecuta en el navegador (frontend) o en el servidor (backend)?
+
+        Se ejecuta en el navegador, es decir, es frontend.
+
+
+Imagina que quieres crear: 
+    1. Un videojuego 3D 
+    2. Una app de móvil 
+    3. Un análisis de datos de supermercado 
+
+¿Qué lenguaje elegirías para cada caso y por qué?
+    
+    Para el caso 1, utilizaría C++
+
+    Para el caso 2, usaría Java ya que android utiliza Java
+
+    Para el caso 3, la mejor opción sería python, ya que se usa principalmente para
+    el analisis de datos
