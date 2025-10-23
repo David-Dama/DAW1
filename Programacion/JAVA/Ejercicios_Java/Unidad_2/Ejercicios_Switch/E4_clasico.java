@@ -25,25 +25,25 @@ public class E4_clasico {
                 System.out.println("Escriba el resultado de " + num1 + " + " + num2 + ": ");
                 operacionUsuario = input.nextInt();
                 resultado = num1 + num2;
-                mensaje = (operacionUsuario == resultado) ? "¡Correcto!" : "Incorrecto. El resultado es " + resultado;
+                mensaje = (operacionUsuario == resultado) ? "Correcto" : "Incorrecto. El resultado es " + resultado;
                 break;
             case '-':
                 System.out.println("Escriba el resultado de " + num1 + " - " + num2 + ": ");
                 operacionUsuario = input.nextInt();
                 resultado = num1 - num2;
-                mensaje = (operacionUsuario == resultado) ? "¡Correcto!" : "Incorrecto. El resultado es " + resultado;
+                mensaje = (operacionUsuario == resultado) ? "Correcto" : "Incorrecto. El resultado es " + resultado;
                 break;
             case '*':
                 System.out.println("Escriba el resultado de " + num1 + " * " + num2 + ": ");
                 operacionUsuario = input.nextInt();
                 resultado = num1 * num2;
-                mensaje = (operacionUsuario == resultado) ? "¡Correcto!" : "Incorrecto. El resultado es " + resultado;
+                mensaje = (operacionUsuario == resultado) ? "Correcto" : "Incorrecto. El resultado es " + resultado;
                 break;
             case '/':
                 System.out.println("Escriba el resultado de " + num1 + " / " + num2 + ": ");
                 operacionUsuario = input.nextInt();
                 resultado = num1 / num2;
-                mensaje = (operacionUsuario == resultado) ? "¡Correcto!" : "Incorrecto. El resultado es " + resultado;
+                mensaje = (operacionUsuario == resultado) ? "Correcto" : "Incorrecto. El resultado es " + resultado;
                 break;
             default:
                 mensaje = "Operación no válida.";
