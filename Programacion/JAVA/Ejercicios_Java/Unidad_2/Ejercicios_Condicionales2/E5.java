@@ -25,14 +25,10 @@ public class E5 {
         //Calculo y salida de datos + condicionales
         if (grados < 0) {
             System.out.println("El ángulo no puede ser negativo.");
-        } else {
-            if (grados > 0 || grados > 360) {
+        }else{
             grados %= 360;
-            
             radianes = (grados * Math.PI) / 180;
-            
             System.out.println("El ángulo en radianes es: " + radianes);
-            }
         }
 
         //Cerrar Scanner
