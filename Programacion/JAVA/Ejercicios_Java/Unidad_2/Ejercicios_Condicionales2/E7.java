@@ -21,6 +21,25 @@ public class E7 {
         
         //Importar Scanner y declarar variables
         Scanner input = new Scanner(System.in);
-        
+        double salarioAnual;
+        int antiguedadLaboral;
+
+        //Pedir datos al usuario
+        System.out.print("Ingrese su Salario Anual en euros: ");
+        salarioAnual = input. nextDouble();
+        System.out.print("Ingrese su Antigüedad Laboral en años: ");
+        antiguedadLaboral = input.nextInt();
+
+        //Operaciones y condicionales
+        if (salarioAnual >= 30000 && antiguedadLaboral >= 5) {
+            System.out.println("Préstamo Aprobado");
+        } else if (salarioAnual < 30000 && antiguedadLaboral >= 10) {
+            System.out.println("Revisión Especial Requerida");
+        } else {
+            System.out.println("Préstamo Denegado");
+        }
+
+        //Cerrar Scanner
+        input.close();
     }
 }
