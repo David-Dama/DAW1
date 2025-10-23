@@ -30,15 +30,15 @@ public class E4 {
         //Cálculo y salida de resultados con condicionales
         racionNecesariaPorAnimal = (numAnimales * kilosPorAnimal) / comidaDiaria;
         racionPorAnimal = comidaDiaria / (numAnimales * kilosPorAnimal);
-        if (comidaDiaria == 0) {
+        if (numAnimales == 0) {
             System.out.println("El número de animales no puede ser cero.");
-        }
-        if (comidaDiaria >= kilosPorAnimal * numAnimales) {
+        }else if (comidaDiaria >= kilosPorAnimal * numAnimales) {
             System.out.println("Hay comida suficiente para cada animal."); 
         } else {
             System.out.println("No hay comida suficiente para cada animal, la ración por animal necesaria es de: " + racionNecesariaPorAnimal + " kg.");
             System.out.println("La ración por animal disponible es de: " + racionPorAnimal + " kg.");
         }
+        
 
         //Cerrar Scanner
         input.close();
