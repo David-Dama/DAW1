@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Ejercicios_Explicaciones;
+package Programacion.JAVA.Ejercicios_Explicaciones;
 import java.util.Scanner;
 
 public class EjercicioSwitch {

@@ -1,4 +1,4 @@
-package Entornos_de_desarrollo.Ejercicios_resueltos;
+package Entornos_de_desarrollo.Ejercicios_resueltos.Ejercicio_Metodos_Agiles_Con_David_Wei_Xu;
 
 import java.util.Scanner;
 
