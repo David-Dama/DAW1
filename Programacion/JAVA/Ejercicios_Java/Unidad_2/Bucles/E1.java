@@ -18,5 +18,8 @@ public class E1 {
             System.out.println("eco");
             num--;
         }
+
+        //Cerrar scanner
+        input.close();
     }
 }
