@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundVibes</title>
+    <link rel="stylesheet" href="soundvibes\style.css">
+</head>
+<body>
+    <header class="cabecera"> 
+        <div>
+            <h1>SoundVibes</h1>
+            <img src="soundvibes\imagenes\logo.png" alt="Logo de SoundVibes" width="100px">
+        </div>
+        <nav> 
+            <a>Inicio</a>
+            <a href="Artistas.html">Artistas</a>
+            <a href="Playlist.html">Playlist</a>
+        </nav>
+    </header>
+    <main>
+        <section class="seccion">
+            <h2>Álbumes destacados</h2>
+            <picture >
+                <source media="(min-width: 1200px)" srcset="soundvibes\imagenes\album-grande.png">
+                <img src="soundvibes\imagenes\album-grande.png" alt="Descripcion de la imagen">
+            </picture>
+            <video controls autoplay loop poster="soundvibes\imagenes\album-grande.png"> 
+                <source src="soundvibes/videos/videoClip.mp4" type="video/mp4">
+            </video>
+        </section>
+        <aside class="lateral">
+            <h3>Albumes favoritos</h3>
+            <li><img src="soundvibes\imagenes\artista1.png" alt="Album bad bunny"></li>
+            <li><img src="soundvibes\imagenes\artista2.png" alt="Album de rockeros "></li>
+            <li><img src="soundvibes\imagenes\artista3.png" alt="Album travis scott"></li>
+        </aside>
+        <footer class="piePagina">
+            <p1> Ejemplo :  © 2025 SoundVibe – Tu música, tu estilo – Creado por David López Zurrón</p1>
+        </footer>
+    </main>
+</body>
+</html>
