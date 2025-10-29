@@ -2,6 +2,7 @@
 .idea/
 *.iml
 out/
+.vscode/
 
 # Archivos del sistema
 .DS_Store
