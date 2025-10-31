@@ -12,7 +12,7 @@ public class Prueba{
 } 
   */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Repaso;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Repaso;
 
 import java.util.Scanner; //Importar la clase Scanner para poder usarla, cosa que falta el en código
 

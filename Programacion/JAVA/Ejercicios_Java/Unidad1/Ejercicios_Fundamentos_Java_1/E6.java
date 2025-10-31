@@ -2,7 +2,7 @@
 Debe calcular su edad, suponiendo que en el año en curso el usuario ya ha cumplido 
 años. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar Scanner
 

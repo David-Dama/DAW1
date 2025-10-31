@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Bucles;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Bucles;
 
 public class E9 {
     public static void main(String[] args) {

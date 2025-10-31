@@ -12,7 +12,7 @@ El  programa  debe  imprimir,  dependiendo  de  qué  reglas  de  las  anteriore
 cumplan:  "Préstamo  Aprobado", "Revisión  Especial  Requerida"  o "Préstamo 
 Denegado" */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

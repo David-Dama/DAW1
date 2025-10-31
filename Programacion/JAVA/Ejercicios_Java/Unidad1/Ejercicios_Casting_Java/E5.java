@@ -1,7 +1,7 @@
 /*Escribe un programa que tome un carácter (por ejemplo, 'A') y lo convierta a su valor 
 numérico ASCII mediante casting. Luego, convierte ese valor numérico nuevamente al 
 carácter correspondiente.  */
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Casting_Java;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Casting_Java;
 
 import java.util.Scanner; //Importar Scanner
 

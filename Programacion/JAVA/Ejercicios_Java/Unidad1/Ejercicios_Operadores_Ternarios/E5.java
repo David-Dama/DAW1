@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Operadores_Ternarios;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Operadores_Ternarios;
 
 import java.util.Scanner; //Importar Scanner
 

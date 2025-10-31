@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Casting_Java;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Casting_Java;
 
 public class E10 {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /*Escribe un programa en java que solicite un número entero por pantalla y que una vez 
 introducido por el usuario imprima “El número introducido es X”, siendo X el número 
 en cuestión.*/
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar SCanner
 

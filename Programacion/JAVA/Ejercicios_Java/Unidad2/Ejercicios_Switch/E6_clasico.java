@@ -1,4 +1,4 @@
-
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Switch;
  
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@ un triángulo (a, b, c), y que determine qué tipo de triángulo es:
 El  programa  debe  validar  que  el  valor  de todas  las longitudes  es  positivo,  en 
 caso contrario, finaliza con un mensaje de error.  */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

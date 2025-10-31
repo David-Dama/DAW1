@@ -1,6 +1,6 @@
 //Pedir al usuario su edad y mostrar la que tendrá el próximo año//
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar Scanner
 

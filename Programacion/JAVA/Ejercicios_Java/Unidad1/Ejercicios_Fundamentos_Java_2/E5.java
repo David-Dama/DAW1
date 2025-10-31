@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_2;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_2;
 
 import java.util.Scanner; //Importamos Scanner
 

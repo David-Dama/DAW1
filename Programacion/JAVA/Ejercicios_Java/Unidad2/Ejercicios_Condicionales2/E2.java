@@ -3,7 +3,7 @@ enteros aleatorios (comprendidos entre 1 y 99) que el usuario tiene que sumar.
 La  aplicación  debe  indicar  si  el  resultado  de  la  operación  es  correcto  o 
 incorrecto. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner; 
 

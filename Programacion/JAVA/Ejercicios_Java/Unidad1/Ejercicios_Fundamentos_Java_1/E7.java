@@ -1,7 +1,7 @@
 /*Escribe un programa en java que calcule la media aritmética de dos notas enteras. 
 Hay que tener en cuenta que la media puede contener decimales. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar Scanner
 

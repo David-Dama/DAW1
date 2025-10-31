@@ -2,7 +2,7 @@
 - solicite dos números enteros 
 - devuelva como resultado la suma de los dos números.  */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar Scanner
 

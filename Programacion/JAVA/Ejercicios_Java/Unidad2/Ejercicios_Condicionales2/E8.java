@@ -13,7 +13,7 @@ El programa debe hacer las comprobaciones anteriores e imprimir:
 es segura. 
 - "Error: Usuario No Encontrado": Si el usuario no es válido. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

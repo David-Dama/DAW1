@@ -2,7 +2,7 @@
 aleatorios,  también  se  proponga  la  operación  que  debe  realizar  el  jugador: 
 “suma”, “resta” o “multiplicación”. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

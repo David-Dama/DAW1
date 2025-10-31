@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales_Extra;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales_Extra;
 
 import java.util.Scanner;
 

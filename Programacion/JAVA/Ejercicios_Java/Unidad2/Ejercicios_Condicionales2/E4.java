@@ -7,7 +7,7 @@ En caso negativo, ha de calcular cuál es la ración que corresponde a cada uno
 de los animales. 
 Nota:  Evitar que la aplicación realice divisiones por cero. */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Bucles;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Bucles;
 import java.util.Scanner;
 
 public class E5 {

@@ -7,7 +7,7 @@ a 360°
 - Para convertir de grados a radianes ten en cuenta esta relación:  
 radianes = grados * PI/180 */
 
-package Programacion.JAVA.Ejercicios_Java.Unidad_2.Ejercicios_Condicionales2;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Ejercicios_Condicionales2;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@
 - multiplique x2 el valor introducido y lo guarde en una variable 
 - imprima por pantalla “El número introducido, multiplicado por 2 es: X”, donde X 
   es el valor de la variable que almacena el dato calculado  */
-package Programacion.JAVA.Ejercicios_Java.Unidad_1.Ejercicios_Fundamentos_Java_1;
+package Programacion.JAVA.Ejercicios_Java.Unidad1.Ejercicios_Fundamentos_Java_1;
 
 import java.util.Scanner; //Importar Scanner
 
