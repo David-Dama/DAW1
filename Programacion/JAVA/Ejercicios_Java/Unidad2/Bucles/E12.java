@@ -7,14 +7,25 @@ public class E12 {
         
         //Scanner y declaración de variables
         Scanner input = new Scanner(System.in);
-        int num = 1, acumulador = 0;
+        int numAnterior = 1, numActual = -numAnterior,  acumulador = 0;
 
         //Bucle for
-        while (acumulador != num){
+        while (numActual != numAnterior){
             System.out.print("Introduzca el número: ");
-            num = input.nextInt();
-            
+            numAnterior = input.nextInt();
+            acumulador += numAnterior;
+            if (numActual == numAnterior){
+                break;
+            }
+            System.out.print("Introduzca el número: ");
+            numActual = input.nextInt();
+            acumulador += numActual;
         }
+        
+        //Dos numeros iguales seguidos
+        System.out.println("Valor repetido. El total de la suma es: " + acumulador);
 
+        //Cerrar Scanner
+        input.close();
     }
 }
