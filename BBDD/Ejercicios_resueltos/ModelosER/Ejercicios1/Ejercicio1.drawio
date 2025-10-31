@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Página-1" id="lNLLQSSScVrlVIeiiF7E">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-12" value="Producto" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-14" value="Precio de coste" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-15" value="Nombre" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry x="10" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-16" value="Precio de venta" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry x="10" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-18" value="Stock" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry x="10" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-19" value="Código de barras" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry x="10" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-20" value="Familia" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="146" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-21" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Código identificador&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-20">
+          <mxGeometry x="13" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-22" value="Nombre" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-20">
+          <mxGeometry x="13" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-23" value="Proveedor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-24" value="Cif" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-25" value="Nombre" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-27" value="Dirección" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-29" value="Población" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-30" value="Teléfono" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-31" value="Correo electrónico" style="whiteSpace=wrap;html=1;" vertex="1" parent="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry x="10" y="180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.568;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ICtUaTc1fBUFMB9aCRHN-20" target="ICtUaTc1fBUFMB9aCRHN-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint" />
+            <mxPoint x="290" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.029;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ICtUaTc1fBUFMB9aCRHN-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="60" as="sourcePoint" />
+            <mxPoint x="570" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-36" value="Pertenece" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtUaTc1fBUFMB9aCRHN-37" value="Provee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
