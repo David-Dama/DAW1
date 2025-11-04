@@ -21,7 +21,7 @@ public class E13 {
         }
 
         //Mostrar resultados
-        System.out.println("Se han introducido " + (conteo) + " colores, de los cuales " + azul + " eran azules.");
+        System.out.printf("Se han introducido %d colores, de los cuales %d eran azules.", conteo, azul);
 
         //Cerrar Scanner
         input.close();
