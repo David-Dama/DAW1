@@ -7,8 +7,8 @@ public class E6 {
     
         //Scanner y declaración de variables
         Scanner input = new Scanner(System.in);
-        int edad = 1, catidadAlumnos = 0, mayoresEdad = 0, alumnos = 1;
-        float sumaEdades = 0, mediaEdades = 0;
+        int edad = 1, mayoresEdad = 0, alumnos = 1;
+        double sumaEdades = 0, mediaEdades = 0;
 
         while (edad > 0){
             
