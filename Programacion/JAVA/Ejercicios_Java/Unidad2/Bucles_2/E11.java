@@ -6,112 +6,78 @@ public class E11 {
     public static void main(String[] args) {
         //Scanner y declaracion de variables
         Scanner input = new Scanner(System.in);
-        int horasInt = 1, minutosInt = 1, segundosInt = 1, horasIncrementadas = 0, minutosIncrementados = 0, segundosIncrementados = 0;
-        String horasString, minutosString, segundosString;
+        int horas = 1, minutos = 1, segundos = 1, segundosIncrementados, valoresFueraDeRango, totalSegundos;
+        boolean cerrarPrograma = false;
+        char cerrarProgramaSoN;
 
-        //Instrucciones de como cerrar el programa
-        System.out.println("Introduzca un valor negativo en 'horas', 'minutos' o 'segundos' para cerrar el programa.");
+        //Bucle 
+        do {
+            //Bucle para solicitar horas, minutos y segundos y que estén en rango
+            do {
+                //Mensaje de error
+                if (!(horas >= 0 && horas < 24) && (minutos >= 0 && minutos < 60) && (segundos >= 0 && segundos < 60)) {
+                    System.out.println("\nAlgunos de los valores que ha introducido son incorrectos.\nRecuerda que las horas deben de estar entre '0' y '23' y tanto los minutos como los segundos entre '0' y '59'.");
+                }
+                
+                //Entrada de datos
+                System.out.print("\nIntroduzca la hora: ");
+                horas = input.nextInt();
 
-        while (horasInt >= 0 && minutosInt >= 0 && segundosInt >= 0){
-            //Entrada de datos
-            System.out.print("Introduzca la hora: ");
-            horasInt = input.nextInt();
-            if (horasInt < 0 || minutosInt < 0 || segundosInt < 0){ //Si algun valor es negativo el bucle se cierra
-                break;
-            }
-            System.out.print("Introduzca los minutos: ");
-            minutosInt = input.nextInt();
-            if (horasInt < 0 || minutosInt < 0 || segundosInt < 0){ //Si algun valor es negativo el bucle se cierra
-                break;
-            }
-            System.out.print("Introduzca los segundos: ");
-            segundosInt = input.nextInt();
-            if (horasInt < 0 || minutosInt < 0 || segundosInt < 0){ //Si algun valor es negativo el bucle se cierra
-                break;
-            }
+                System.out.print("Introduzca los minutos: ");
+                minutos = input.nextInt();
+            
+                System.out.print("Introduzca los segundos: ");
+                segundos = input.nextInt();
 
-            //Pasar de int a String
-            segundosString = Integer.toString(segundosInt);
-            minutosString = Integer.toString(minutosInt);
-            horasString = Integer.toString(horasInt);
-
-            //Poner 0 delante en el caso de que haga falta
-            if (horasInt >= 0 && horasInt < 10){
-                horasString = "0" + horasInt;
-            }
-            if (minutosInt >= 0 && minutosInt < 10){
-                minutosString = "0" + minutosInt;
-            }
-            if (segundosInt >= 0 && segundosInt < 10){
-                segundosString = "0" + segundosInt;
-            }
+            } while (!(horas >= 0 && horas < 24) && (minutos >= 0 && minutos < 60) && (segundos >= 0 && segundos < 60));
 
             //Solicitud de incremento
-            System.out.print("Ingrese el numero de segundos que desea incrementar: ");
-            segundosIncrementados = input.nextInt();
+            do { //Bucle para solicitar incremento hasta que de un valor positivo      
+                System.out.print("Ingrese el numero de segundos que desea incrementar: ");
+                segundosIncrementados = input.nextInt();
+                if (segundosIncrementados < 0) {
+                    System.out.println("Ingrese una cantidad de segundos a incrementar positiva");
+                }
+            }while (segundosIncrementados < 0 );
             
-            //Reevaluacion para que los valores entren en rango
-            if (segundosIncrementados >= 60){ 
-                minutosIncrementados = segundosIncrementados/60;
-                segundosIncrementados %= 60;
-            }
-            if (minutosIncrementados >= 60) {
-                    horasIncrementadas = minutosIncrementados/60;
-                    minutosIncrementados %= 60;
-            }
-            if (horasIncrementadas >= 24) {
-                horasIncrementadas %= 24;
-            }
-
             //Mostramos en pantalla la hora actual
-            System.out.printf("La hora actual es -> %2s:%2s:%2s\n", horasString, minutosString, segundosString);
+            System.out.printf("\nLa hora actual es -> %2s:%2s:%2s\n", ((horas >= 0 && horas < 10 ) ? "0" + horas : horas), ((minutos >= 0 && minutos < 10) ? "0" + minutos : minutos), ((segundos >= 0 && segundos < 10) ? "0" + segundos : segundos));
+
+            //Pasamos la hora actual a segundos
+            totalSegundos = horas * 3600 + minutos * 60 + segundos;
+
+            // Sumamos el incremento
+            totalSegundos += segundosIncrementados;
+
+            // Ajustamos para que no supere las 24 horas (86400 segundos)
+            totalSegundos %= 86400;
+
+            // Convertimos de nuevo a horas, minutos y segundos
+            horas = totalSegundos / 3600;
+            minutos = (totalSegundos % 3600) / 60;
+            segundos = totalSegundos % 60;
+
+            //Mostramos la hora incrementada
+            System.out.printf("La hora incrementada es -> %2s:%2s:%2s\n\n", ((horas >= 0 && horas < 10 ) ? "0" + horas : horas), ((minutos >= 0 && minutos < 10) ? "0" + minutos : minutos), ((segundos >= 0 && segundos < 10) ? "0" + segundos : segundos));
             
-            //Sumamos las horas actuales con el incremento
-            horasInt += horasIncrementadas;
-            minutosInt += minutosIncrementados;
-            segundosInt += segundosIncrementados;
+            //Bucle 
+            do {
+                System.out.println("Desea cerrar el programa? S/N"); //Mensaje para cerrar el programa
+                cerrarProgramaSoN = input.next().charAt(0);
+                if (cerrarProgramaSoN == 'S' || cerrarProgramaSoN == 's') { //La S se traduce en true para el booleano
+                    cerrarPrograma = true;
+                } else if (cerrarProgramaSoN == 'N' || cerrarProgramaSoN == 'n') { //La S se traduce en true para el booleano
+                    cerrarPrograma = false;
+                } else { //Si no es ni S ni N reinicia el bucle y sale mensaje de error
+                    System.out.println("Debe introducir S o N para poder continuar, otros valores no serán aceptados.");
+                }
+            } while (!(cerrarProgramaSoN == 'S' || cerrarProgramaSoN == 's' || cerrarProgramaSoN == 'N' || cerrarProgramaSoN == 'n'));
+        } while (!cerrarPrograma);
 
-            //Reevaluamos las horas, minutos y segundos para que esten dentro de rango
-            if (segundosInt >= 60){ 
-                minutosIncrementados = segundosInt/60;
-                minutosInt += minutosIncrementados;
-                segundosInt %= 60;
-            }
-            if (minutosInt >= 60) {
-                    horasIncrementadas = minutosInt/60;
-                    horasInt += horasIncrementadas;
-                    minutosInt %= 60;
-            }
-            if (horasInt >= 24) {
-                horasInt %= 24;
-            }
-
-            //Pasamos nuestro nuevo tiempo de Int a String
-            segundosString = Integer.toString(segundosInt);
-            minutosString = Integer.toString(minutosInt);
-            horasString = Integer.toString(horasInt);
-
-            //Poner 0 delante en el caso de que haga falta
-            if (horasInt >= 0 && horasInt < 10){
-                horasString = "0" + horasInt;
-            }
-            if (minutosInt >= 0 && minutosInt < 10){
-                minutosString = "0" + minutosInt;
-            }
-            if (segundosInt >= 0 && segundosInt < 10){
-                segundosString = "0" + segundosInt;
-            }
-
-            //Mostramos la hora con el tiempo sumado
-            System.out.printf("La hora incrementada es -> %2s:%2s:%2s\n\n", horasString, minutosString, segundosString);
-        }   
+        //Menajes de cerrando programa
+        System.out.println("Cerrando programa.");
 
         //Cerrar Scanner
         input.close();
     }
 }
-/*NOTAS
- * Tengo que hacer que si se mete un incremento negativo de error y pregunte de nuevo
- * No permitir meter mas d 23 horas, 60 mins y cosas asi
- * revisar y optimizar codigo, revisar bucles e intentar evitar los breaks, ademas de ver si puedo evitar repetir codigo o usar bucles
- */
