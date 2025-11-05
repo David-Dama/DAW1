@@ -18,7 +18,7 @@ public class E4 {
             alumno++;
 
             //Solo permite números positivos
-            if (nota < -1 && nota > 10){
+            if (nota < -1 || nota > 10){
                 System.out.println("El número debe de ser positivo o menor que 10");
                 alumno--;
             } else if (nota >= 0 && nota <= 10) {

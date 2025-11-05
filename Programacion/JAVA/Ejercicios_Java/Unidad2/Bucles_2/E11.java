@@ -15,7 +15,7 @@ public class E11 {
             //Bucle para solicitar horas, minutos y segundos y que estén en rango
             do {
                 //Mensaje de error
-                if (!(horas >= 0 && horas < 24) && (minutos >= 0 && minutos < 60) && (segundos >= 0 && segundos < 60)) {
+                if (horas < 0 || horas >= 24 || minutos < 0 || minutos >= 60 || segundos < 0 || segundos >= 60) {
                     System.out.println("\nAlgunos de los valores que ha introducido son incorrectos.\nRecuerda que las horas deben de estar entre '0' y '23' y tanto los minutos como los segundos entre '0' y '59'.");
                 }
                 
@@ -29,7 +29,7 @@ public class E11 {
                 System.out.print("Introduzca los segundos: ");
                 segundos = input.nextInt();
 
-            } while (!(horas >= 0 && horas < 24) && (minutos >= 0 && minutos < 60) && (segundos >= 0 && segundos < 60));
+            } while (horas < 0 || horas >= 24 || minutos < 0 || minutos >= 60 || segundos < 0 || segundos >= 60);
 
             //Solicitud de incremento
             do { //Bucle para solicitar incremento hasta que de un valor positivo      

@@ -9,11 +9,12 @@ public class E1 {
         Scanner input = new Scanner(System.in);
         int num = -1;
 
+        //Entrada de datos
+        System.out.print("Introduce un numero (0 para salir): ");
+        num = input.nextInt();
+
         //Bucle para pedir numeros hasta que se introduzca un 0
         while (num != 0) {
-            System.out.print("Introduce un numero (0 para salir): ");
-            num = input.nextInt();
-
             if (num%2 == 0) {
                 System.out.println("El numero " + num + " es par.");
             } else {
@@ -26,7 +27,10 @@ public class E1 {
                 System.out.println("El numero " + num + " es negativo.");
             }
 
-            System.out.println("Su cuadrado es: " + (num * num));
+            System.out.println("Su cuadrado es: " + Math.pow(num, 2));
+
+            System.out.print("Introduce un numero (0 para salir): ");
+            num = input.nextInt();
         }
 
         //Cierre del scanner
