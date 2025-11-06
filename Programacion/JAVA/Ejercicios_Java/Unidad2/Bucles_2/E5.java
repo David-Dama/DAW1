@@ -7,7 +7,7 @@ public class E5 {
         
         //Declaración de variables
         Scanner input = new Scanner(System.in);
-        String palabra ="a";
+        String palabra = null;
         int empiezanPorA = 0, empiezanPorM = 0, resto = 0, conteo = 1;
         char primeraLetra; 
 
