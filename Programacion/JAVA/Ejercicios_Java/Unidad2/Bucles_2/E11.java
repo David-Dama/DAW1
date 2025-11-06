@@ -10,10 +10,12 @@ public class E11 {
         boolean cerrarPrograma = false;
         char cerrarProgramaSoN;
 
-        //Bucle 
+        //Bucle para que se repita hasta que el usuario quiera cerrar el programa
         do {
+
             //Bucle para solicitar horas, minutos y segundos y que estén en rango
             do {
+
                 //Mensaje de error
                 if (horas < 0 || horas >= 24 || minutos < 0 || minutos >= 60 || segundos < 0 || segundos >= 60) {
                     System.out.println("\nAlgunos de los valores que ha introducido son incorrectos.\nRecuerda que las horas deben de estar entre '0' y '23' y tanto los minutos como los segundos entre '0' y '59'.");
@@ -75,7 +77,7 @@ public class E11 {
         } while (!cerrarPrograma);
 
         //Menajes de cerrando programa
-        System.out.println("Cerrando programa.");
+        System.out.println("\nCerrando programa.");
 
         //Cerrar Scanner
         input.close();

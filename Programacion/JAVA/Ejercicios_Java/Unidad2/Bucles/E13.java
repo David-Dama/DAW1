@@ -7,7 +7,7 @@ public class E13 {
         
         //Scanner y declaración de variables
         Scanner input = new Scanner(System.in);
-        String color = "a";
+        String color = "";
         int conteo = 0, azul = 0;
 
         //Bucle while
@@ -17,7 +17,9 @@ public class E13 {
             if (color.equals("azul")){
                 azul++;
             }
-            conteo++;
+            if (!color.equalsIgnoreCase("negro")){
+                conteo++;
+            }
         }
 
         //Mostrar resultados
