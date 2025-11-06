@@ -3,17 +3,17 @@ package Programacion.JAVA.Ejercicios_Explicaciones;
 public class PruebaFunciones {
 
     public static void main(String[] args) {
-        boolean pruebaVariable = miSaludo("pepe");
+        boolean pruebaVariable = miSaludo("pepe", 4);
         System.out.println((pruebaVariable));//vale true
-        if(miSaludo("paco")){
+        if(miSaludo("paco",2)){
             System.out.println("Todo ha ido bien");
         }
     }
 
-    public static boolean miSaludo(String cadena){
+    public static boolean miSaludo(String cadena, int longi){
         System.out.println("¡HOLAAAA " + cadena + " desde mi función!");
         boolean resultado;
-        if (cadena.length() < 1){
+        if (cadena.length() < longi){
             resultado = false;
         } else {
             resultado = true;
