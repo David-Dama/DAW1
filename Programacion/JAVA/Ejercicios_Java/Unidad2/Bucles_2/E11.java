@@ -69,7 +69,7 @@ public class E11 {
                 if (cerrarProgramaSoN == 'S' || cerrarProgramaSoN == 's') { //La S se traduce en true para el booleano
                     cerrarPrograma = true;
                 } else if (cerrarProgramaSoN == 'N' || cerrarProgramaSoN == 'n') { //La S se traduce en true para el booleano
-                    cerrarPrograma = false;
+                
                 } else { //Si no es ni S ni N reinicia el bucle y sale mensaje de error
                     System.out.println("Debe introducir S o N para poder continuar, otros valores no serán aceptados.");
                 }
