@@ -13,7 +13,7 @@ public class E1 {
         num2 = num1;
 
         //Impresión de los resultados
-        System.out.print(num1);
+        System.out.println(num1);
         System.out.print(num2);
     }
     
