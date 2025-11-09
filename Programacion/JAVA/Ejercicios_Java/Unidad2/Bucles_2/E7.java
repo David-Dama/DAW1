@@ -7,8 +7,7 @@ public class E7 {
         
         //Scanner y declaración de variables
         Scanner input = new Scanner(System.in);
-        int numeroUsuario, numeroAleatorio;
-        boolean numeroEnRango = true;
+        int numeroUsuario, numeroAleatorio;;
 
         //Crear número aleatorio
         numeroAleatorio = (int)(Math.random() * 100) + 1;
@@ -21,7 +20,6 @@ public class E7 {
         while (numeroUsuario != numeroAleatorio){
             if (numeroUsuario == -1){ 
                 System.out.println("¡La próxima vez saldrá mejor!");
-                numeroEnRango = false;
                 break;
             } else if (numeroUsuario <= -1 || numeroUsuario > 100 || numeroUsuario == 0){ //Que se repita hasta el acierto o la rendidión aunque se introduzcan valores fuera de rango
                 System.out.print("Número fuera de rango, ingrese un número válido (1-100): ");

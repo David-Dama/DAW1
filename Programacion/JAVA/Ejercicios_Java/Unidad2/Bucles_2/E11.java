@@ -6,7 +6,7 @@ public class E11 {
     public static void main(String[] args) {
         //Scanner y declaracion de variables
         Scanner input = new Scanner(System.in);
-        int horas = 1, minutos = 1, segundos = 1, segundosIncrementados, valoresFueraDeRango, totalSegundos;
+        int horas = 1, minutos = 1, segundos = 1, segundosIncrementados, totalSegundos;
         boolean cerrarPrograma = false;
         char cerrarProgramaSoN;
 
