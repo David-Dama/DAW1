@@ -20,11 +20,13 @@ public class E1 {
 
         //Salida de datos y llamada a la función
         System.out.printf("La diferencia es de %d minutos", diferenciaMin(hora1, minuto1, hora2, minuto2));
+
+        input.close();
     }
 
     //Función operaciones
     public static int diferenciaMin(int hora1, int minuto1, int hora2, int minuto2) {
-        int resultado, horaAmin1, horaAmin2;
+        int horaAmin1, horaAmin2;
 
         //Pasar de horas a minutos
         horaAmin1 = (hora1 * 60) + minuto1;
