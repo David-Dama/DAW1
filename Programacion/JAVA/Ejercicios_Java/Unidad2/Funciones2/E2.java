@@ -15,20 +15,19 @@ public class E2 {
             if (cantidadNumeros < 0){
                 System.out.println("Debe ingresar una cantidad de numero mayor o igual que 0.");
             }
-        } while (cantidadNumeros >= 0);
+        } while (cantidadNumeros <= 0);
         System.out.print("Ingrese el mínimo: ");
         valorMin = input.nextInt();
         System.out.print("Ingrese el máximo: ");
         valorMax = input.nextInt();
 
-        for (int i = cantidadNumeros; i <= cantidadNumeros; i--) {
+        for (int i = cantidadNumeros; i > 0; i--) {
             System.out.println(aleatorio(cantidadNumeros, valorMin, valorMax));
         }
+        input.close();
     }
 
     public static int aleatorio(int cantidadNumeros, int valorMin, int valorMax){
-
-
-        return ;
+        return cantidadNumeros = (int)(Math.random()*valorMax)+valorMin;
     }
 }

@@ -1,4 +1,4 @@
-package Ejercicios_Java.Unidad2.Funciones;
+package Programacion.JAVA.Ejercicios_Java.Unidad2.Funciones;
 
 import java.util.Scanner;
 
