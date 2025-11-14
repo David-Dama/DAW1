@@ -30,4 +30,10 @@ public class E2 {
     public static int aleatorio(int cantidadNumeros, int valorMin, int valorMax){
         return cantidadNumeros = (int)(Math.random()*valorMax)+valorMin;
     }
+
+    public static boolean distintoA0(int cantidadNumeros){
+        boolean valido;
+        valido = cantidadNumeros >= 0;
+            return valido;
+    }
 }
